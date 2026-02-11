@@ -11,7 +11,7 @@ Importen använder en äldre metod för dataimport till Folio och delar upp den 
 Förutsätter att en fil `.env` finns i roten av projektet innehåller följande variabler med värden:
 
 ```
-LIBRIS_BASE_FOLDER="~/LiU-Folio-Scripts/data/libris_files/"
+LIBRIS_BASE_FOLDER="/home/username/LiU-Folio-Scripts/data/libris_files/"
 LIBRIS_CHUNKS_FOLDER="chunks/"
 LIBRIS_JOBPROFILE="uuid-för-rätt-jobbprofil-i-folio"
 LIBRIS_API_URL="https://libris.kb.se/api/marc_export"
