@@ -17,7 +17,6 @@ DAYS_LOOK_AHEAD = 3
 def main():
     """Huvudfunktion för att förnya lån."""
     folio_config = utils.load_env()
-    renewed_loans = 0
 
     today = datetime.date.today()
     end_date = today + datetime.timedelta(days=DAYS_LOOK_AHEAD)
@@ -50,7 +49,6 @@ def main():
                     folio.renew_loan_by_barcode(
                         item_barcode=item_barcode, user_barcode=user_barcode
                     )
-                    renewed_loans += 1
                 except UnprocessableContentError:
                     # If a loan cannot be renewed, just continue
                     continue
