@@ -39,7 +39,7 @@ def update_last_run_timestamp(last_run_timestamp_path):
 
 
 def get_libris_data(last_run_timestamp, libris_export_properties_path):
-    """Håmta MARC-data från Libris"""
+    """Hämta MARC-data från Libris"""
     libris_api_url = os.getenv("LIBRIS_API_URL")
     libris_client = Client()
     params = {
