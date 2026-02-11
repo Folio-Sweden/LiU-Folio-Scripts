@@ -8,7 +8,7 @@ Importen använder en äldre metod för dataimport till Folio och delar upp den 
 
 ## Förutsättningar
 
-Förutsätter att en fil `.env` finns i roten av projektet innehåller följande variabler med värden:
+Förutsätter att en fil `.env` finns i roten av projektet innehåller följande variabler med värden (justera för att passa aktuell miljö):
 
 ```
 LIBRIS_BASE_FOLDER="/home/username/LiU-Folio-Scripts/data/libris_files/"
@@ -18,4 +18,4 @@ LIBRIS_API_URL="https://libris.kb.se/api/marc_export"
 LIBRIS_API_KEY="libris-api-nyckel"
 ```
 
-Skriptet förutsätter även en fil export.properties med rätt värden i mappen `$LIBRIS_BASE_FOLDER`.
+Skriptet förutsätter även en fil export.properties med rätt värden i mappen `$LIBRIS_BASE_FOLDER`. Anpassa medföljande exempel.
