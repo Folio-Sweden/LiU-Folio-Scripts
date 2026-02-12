@@ -9,16 +9,17 @@ En delmängd av de skript som körs vid Linköpings universitet kopplade till Fo
 3. `python3 -m venv venv`
 4. `source venv/bin/activate`
 5. `pip3 install .`
+6. `touch .env`
 
-Skapa en .env-fil med följande variabler med korrekta värden:
+Fyll i rätt verden i .env-filen. Följande variabler måste vara med med korrekta värden:
 
 ```
 # mode
 MODE="prod"
 
 # folio
-FOLIO_OKAPI_TENANT="diku"
-FOLIO_USERNAME="diku_admin"
+FOLIO_OKAPI_TENANT="tenant"
+FOLIO_USERNAME="username"
 FOLIO_ENDPOINT="https://path.to.folio/okapi"
 FOLIO_PASSWORD="password"
 ```
