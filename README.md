@@ -11,7 +11,7 @@ En delmängd av de skript som körs vid Linköpings universitet kopplade till Fo
 5. `pip3 install .`
 6. `touch .env`
 
-Fyll i rätt verden i .env-filen. Följande variabler måste vara med med korrekta värden:
+Följande variabler måste vara med med korrekta värden i .env-filen:
 
 ```
 # mode
@@ -24,4 +24,4 @@ FOLIO_ENDPOINT="https://path.to.folio/okapi"
 FOLIO_PASSWORD="password"
 ```
 
-Fler variabler kan behövas. Se övriga README-filer.
+Fler variabler kan behövas för enskilda skript. Se README-filer för respektive skript.
